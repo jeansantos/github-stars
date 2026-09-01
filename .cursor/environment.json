@@ -1,0 +1,4 @@
+{
+  "name": "github-stars",
+  "install": "pip install --user -r requirements.txt"
+}
