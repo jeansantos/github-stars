@@ -4,9 +4,9 @@ import sys
 import time
 from datetime import datetime, timezone
 
-import anthropic
 import requests
 import yaml
+from cursor_sdk import Agent, AgentOptions, CloudAgentOptions, CursorAgentError
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
@@ -91,40 +91,38 @@ def clean_tags(tags):
     return cleaned[:TAGS_PER_REPO]
 
 
-def response_text(message):
-    for block in message.content:
-        if getattr(block, "type", None) == "text":
-            return block.text
-    raise ValueError("no text block in response")
+def agent_options():
+    return AgentOptions(
+        api_key=os.environ["CURSOR_API_KEY"],
+        model=MODEL,
+        cloud=CloudAgentOptions(repos=[]),
+    )
 
 
-def categorize_batch(client, repos):
+def categorize_batch(repos):
     listing = "\n\n".join(
         f"Repo: {repo['repo']}\nAbout: {repo['about']}\nLanguage: {repo['language']}\n"
         f"Topics: {', '.join(repo['topics']) or 'none'}"
         for repo in repos
     )
     try:
-        message = client.messages.create(
-            model=MODEL,
-            max_tokens=min(8192, len(repos) * 160 + 256),
-            system=PROMPT,
-            messages=[{"role": "user", "content": listing}],
-        )
-        return parse_json_array(response_text(message))
-    except (json.JSONDecodeError, ValueError, anthropic.APIError, KeyError, IndexError):
+        result = Agent.prompt(f"{PROMPT}\n\n{listing}", agent_options())
+        if result.status == "error":
+            raise ValueError(f"run failed: {result.id}")
+        return parse_json_array(result.result or "")
+    except (json.JSONDecodeError, ValueError, CursorAgentError, KeyError, IndexError):
         if len(repos) > 1:
             mid = len(repos) // 2
-            return categorize_batch(client, repos[:mid]) + categorize_batch(client, repos[mid:])
+            return categorize_batch(repos[:mid]) + categorize_batch(repos[mid:])
         return []
 
 
-def categorize(client, repos):
+def categorize(repos):
     classified = {}
     for start in range(0, len(repos), BATCH_SIZE):
         batch = repos[start:start + BATCH_SIZE]
         print(f"Categorizing {start + 1}-{start + len(batch)} of {len(repos)}")
-        for item in categorize_batch(client, batch):
+        for item in categorize_batch(batch):
             name = item.get("repo")
             if not name:
                 continue
@@ -207,7 +205,7 @@ def main():
         pending = [star for star in stars if needs_categorization(star["repo"], existing)]
     print(f"{len(pending)} repos need categorization")
 
-    classified = categorize(anthropic.Anthropic(), pending) if pending else {}
+    classified = categorize(pending) if pending else {}
     entries = merge(existing, stars, classified)
     save(DATA_FILE, entries)
     print(f"Wrote {len(entries)} entries to {DATA_FILE}")

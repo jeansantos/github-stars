@@ -154,7 +154,7 @@ TAG_NOTES = {
 
 TAGS_PER_REPO = 3
 
-MODEL = "claude-sonnet-5"
+MODEL = "composer-2.5"
 BATCH_SIZE = 25
 
 CATEGORY_LINES = "\n".join(
