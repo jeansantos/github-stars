@@ -1,10 +1,10 @@
 # github-stars
 
-This repo is an automatically maintained catalog of the 155+ repositories I've [starred on GitHub](https://github.com/jeansantos?tab=stars). A weekly [GitHub Actions workflow](https://github.com/jeansantos/github-stars/actions) pulls my current stars from the GitHub API, classifies each repo into one of a fixed set of categories, and writes a short description and a few tags for it. The results get committed back here and rendered into the README below.
+This repo is an automatically maintained catalog of the 160+ repositories I've [starred on GitHub](https://github.com/jeansantos?tab=stars). A weekly [GitHub Actions workflow](https://github.com/jeansantos/github-stars/actions) pulls my current stars from the GitHub API, classifies each repo into one of a fixed set of categories, and writes a short description and a few tags for it. The results get committed back here and rendered into the README below.
 
 Suggestions and project recommendations are welcome at [contact@jeansantos.net](mailto:contact@jeansantos.net).
 
-_Last synced Sep 21, 2026_
+_Last synced Sep 28, 2026_
 
 ## Contents
 
@@ -20,19 +20,19 @@ _Last synced Sep 21, 2026_
 - [Infrastructure and Homelab](#infrastructure-and-homelab) (6)
 - [Knowledge and Learning](#knowledge-and-learning) (8)
 - [Media and Streaming](#media-and-streaming) (5)
-- [Monitoring and Observability](#monitoring-and-observability) (19)
-- [Networking and Remote Access](#networking-and-remote-access) (11)
+- [Monitoring and Observability](#monitoring-and-observability) (20)
+- [Networking and Remote Access](#networking-and-remote-access) (12)
 - [Personal and Lifestyle](#personal-and-lifestyle) (12)
 - [Security and DevSecOps](#security-and-devsecops) (17)
 
 ## AI and Machine Learning
 
 **[rtk-ai/rtk](https://github.com/rtk-ai/rtk)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `ai-powered` `cli` `rust` <img src="assets/icons/star.png" width="14" height="14" alt=""> 81.2k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred May 20, 2026  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `ai-powered` `cli` `rust` <img src="assets/icons/star.png" width="14" height="14" alt=""> 81.9k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred May 20, 2026  
 Rust CLI proxy that slashes LLM token use on common development commands.
 
 **[PrefectHQ/fastmcp](https://github.com/PrefectHQ/fastmcp)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `python` `api` `extensible` <img src="assets/icons/star.png" width="14" height="14" alt=""> 27.8k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred May 8, 2026  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `python` `api` `extensible` <img src="assets/icons/star.png" width="14" height="14" alt=""> 27.9k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred May 8, 2026  
 Pythonic framework for building Model Context Protocol servers and clients quickly.
 
 **[tadata-org/fastapi_mcp](https://github.com/tadata-org/fastapi_mcp)**  
@@ -48,7 +48,7 @@ Extensible canvas framework for building node-based AI workflow and automation p
 CLI assistant that uses AI to translate natural language into kubectl commands.
 
 **[steipete/summarize](https://github.com/steipete/summarize)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `ai-powered` `cli` `browser-extension` <img src="assets/icons/star.png" width="14" height="14" alt=""> 6.6k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Feb 23, 2026  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `ai-powered` `cli` `browser-extension` <img src="assets/icons/star.png" width="14" height="14" alt=""> 6.7k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Feb 23, 2026  
 CLI and Chrome extension that summarizes URLs, podcasts, and files with AI.
 
 **[nikitadoudikov/claude-pulse](https://github.com/nikitadoudikov/claude-pulse)**  
@@ -58,7 +58,7 @@ Local dashboard tracking Claude Code tokens, sessions, and tool-call approvals.
 ## Automation and Orchestration
 
 **[n8n-io/n8n](https://github.com/n8n-io/n8n)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `automation` `self-hosted` `low-code` <img src="assets/icons/star.png" width="14" height="14" alt=""> 205.5k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Apr 30, 2024  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `automation` `self-hosted` `low-code` <img src="assets/icons/star.png" width="14" height="14" alt=""> 206.2k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Apr 30, 2024  
 Visual workflow automation platform with 400+ integrations for self-hosting or cloud.
 
 **[ansible/ansible](https://github.com/ansible/ansible)**  
@@ -66,7 +66,7 @@ Visual workflow automation platform with 400+ integrations for self-hosting or c
 Agentless IT automation for deploying apps, configs, and cloud resources over SSH.
 
 **[kestra-io/kestra](https://github.com/kestra-io/kestra)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `orchestration` `automation` `data-pipeline` <img src="assets/icons/star.png" width="14" height="14" alt=""> 28.2k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Apr 30, 2025  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `orchestration` `automation` `data-pipeline` <img src="assets/icons/star.png" width="14" height="14" alt=""> 28.4k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Apr 30, 2025  
 Workflow orchestration platform for scheduling event-driven data and infra pipelines.
 
 **[node-red/node-red](https://github.com/node-red/node-red)**  
@@ -84,7 +84,7 @@ Linux patch management platform automating updates and CVE scanning across fleet
 ## Backup and Storage
 
 **[rclone/rclone](https://github.com/rclone/rclone)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `backup` `cli` `encryption` <img src="assets/icons/star.png" width="14" height="14" alt=""> 59.9k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Jul 9, 2026  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `backup` `cli` `encryption` <img src="assets/icons/star.png" width="14" height="14" alt=""> 60k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Jul 9, 2026  
 CLI syncs and transfers files across dozens of cloud storage providers like S3 and Drive.
 
 **[duplicati/duplicati](https://github.com/duplicati/duplicati)**  
@@ -104,17 +104,17 @@ Schedules and manages restic backups for self-hosted environments.
 Backs up Docker volumes on a schedule to local paths or remote cloud storage.
 
 **[papermerge/papermerge-core](https://github.com/papermerge/papermerge-core)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `self-hosted` `web-app` `python` <img src="assets/icons/star.png" width="14" height="14" alt=""> 539 stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Jul 13, 2026  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `self-hosted` `web-app` `python` <img src="assets/icons/star.png" width="14" height="14" alt=""> 541 stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Jul 13, 2026  
 Self-hosted document management backend with OCR for scanned PDFs and archives.
 
 ## CI/CD and DevOps
 
 **[hashicorp/terraform](https://github.com/hashicorp/terraform)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `infrastructure-as-code` `cloud-native` `go` <img src="assets/icons/star.png" width="14" height="14" alt=""> 49.7k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Jun 24, 2026  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `infrastructure-as-code` `cloud-native` `go` <img src="assets/icons/star.png" width="14" height="14" alt=""> 49.8k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Jun 24, 2026  
 Declarative IaC tool for provisioning and managing cloud infrastructure safely.
 
 **[opentofu/opentofu](https://github.com/opentofu/opentofu)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `infrastructure-as-code` `go` `cli` <img src="assets/icons/star.png" width="14" height="14" alt=""> 30.2k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred May 7, 2026  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `infrastructure-as-code` `go` `cli` <img src="assets/icons/star.png" width="14" height="14" alt=""> 30.3k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred May 7, 2026  
 Open Terraform fork for declaratively provisioning and managing cloud infrastructure.
 
 **[hashicorp/packer](https://github.com/hashicorp/packer)**  
@@ -122,11 +122,11 @@ Open Terraform fork for declaratively provisioning and managing cloud infrastruc
 Builds identical machine images for many platforms from a single configuration.
 
 **[oblien/openship](https://github.com/oblien/openship)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `self-hosted` `automation` `web-app` <img src="assets/icons/star.png" width="14" height="14" alt=""> 12.4k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Jul 29, 2026  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `self-hosted` `automation` `web-app` <img src="assets/icons/star.png" width="14" height="14" alt=""> 13.2k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Jul 29, 2026  
 Self-hosted platform for deploying applications to your own infrastructure.
 
 **[moghtech/komodo](https://github.com/moghtech/komodo)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `rust` `automation` `self-hosted` <img src="assets/icons/star.png" width="14" height="14" alt=""> 12.4k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred May 27, 2026  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `rust` `automation` `self-hosted` <img src="assets/icons/star.png" width="14" height="14" alt=""> 12.5k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred May 27, 2026  
 Rust tool to build and deploy software across many remote servers from one place.
 
 **[openchoreo/openchoreo](https://github.com/openchoreo/openchoreo)**  
@@ -136,11 +136,11 @@ Kubernetes internal developer platform for GitOps-driven app delivery and platfo
 ## Containers and Kubernetes
 
 **[waydroid/waydroid](https://github.com/waydroid/waydroid)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `docker` `virtualization` `cross-platform` <img src="assets/icons/star.png" width="14" height="14" alt=""> 12.2k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Jun 5, 2025  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `docker` `virtualization` `cross-platform` <img src="assets/icons/star.png" width="14" height="14" alt=""> 12.3k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Jun 5, 2025  
 Runs a full Android system in a container on Linux desktops for native mobile app usage.
 
 **[getarcaneapp/arcane](https://github.com/getarcaneapp/arcane)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `docker` `gui` `self-hosted` <img src="assets/icons/star.png" width="14" height="14" alt=""> 7.5k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Oct 14, 2025  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `docker` `gui` `self-hosted` <img src="assets/icons/star.png" width="14" height="14" alt=""> 7.6k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Oct 14, 2025  
 Self-hosted Docker management UI designed to simplify compose stacks and container ops.
 
 **[kubenote/KubeForge](https://github.com/kubenote/KubeForge)**  
@@ -154,11 +154,11 @@ Systemd integration for running Podman containers as native units on Linux.
 ## Databases and Data
 
 **[nocodb/nocodb](https://github.com/nocodb/nocodb)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `database` `self-hosted` `api` <img src="assets/icons/star.png" width="14" height="14" alt=""> 65k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Jan 3, 2026  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `database` `self-hosted` `api` <img src="assets/icons/star.png" width="14" height="14" alt=""> 65.1k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Jan 3, 2026  
 Self-hostable spreadsheet database that auto-generates REST APIs from your tables and views.
 
 **[appwrite/appwrite](https://github.com/appwrite/appwrite)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `self-hosted` `database` `authentication` <img src="assets/icons/star.png" width="14" height="14" alt=""> 57.4k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Mar 8, 2025  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `self-hosted` `database` `authentication` <img src="assets/icons/star.png" width="14" height="14" alt=""> 57.5k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Mar 8, 2025  
 Self-hosted backend platform offering auth, databases, storage, and serverless functions.
 
 **[etcd-io/etcd](https://github.com/etcd-io/etcd)**  
@@ -184,35 +184,35 @@ Client-side CSV explorer that charts data locally without uploading it anywhere.
 ## Developer Tools and CLI
 
 **[public-apis/public-apis](https://github.com/public-apis/public-apis)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `api` `python` `search` <img src="assets/icons/star.png" width="14" height="14" alt=""> 482k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Jun 27, 2026  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `api` `python` `search` <img src="assets/icons/star.png" width="14" height="14" alt=""> 484k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Jun 27, 2026  
 Curated catalog of free public APIs for developers to browse and reference.
 
 **[ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `shell` `cli` `extensible` <img src="assets/icons/star.png" width="14" height="14" alt=""> 189.9k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Mar 25, 2025  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `shell` `cli` `extensible` <img src="assets/icons/star.png" width="14" height="14" alt=""> 190k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Mar 25, 2025  
 Community zsh framework with plugins, themes, and helpers for shell customization.
 
 **[github/spec-kit](https://github.com/github/spec-kit)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `python` `cli` `productivity` <img src="assets/icons/star.png" width="14" height="14" alt=""> 138.1k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Jun 24, 2026  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `python` `cli` `productivity` <img src="assets/icons/star.png" width="14" height="14" alt=""> 139.2k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Jun 24, 2026  
 Toolkit scaffolding spec-driven development workflows with structured PRDs and specs.
 
 **[gohugoio/hugo](https://github.com/gohugoio/hugo)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `cli` `go` `cross-platform` <img src="assets/icons/star.png" width="14" height="14" alt=""> 89.9k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Oct 23, 2024  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `cli` `go` `cross-platform` <img src="assets/icons/star.png" width="14" height="14" alt=""> 90k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Oct 23, 2024  
 Fast Go static site generator for blogs, docs, and websites from markup files.
 
 **[hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `api` `web-app` `cross-platform` <img src="assets/icons/star.png" width="14" height="14" alt=""> 80.4k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Mar 17, 2025  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `api` `web-app` `cross-platform` <img src="assets/icons/star.png" width="14" height="14" alt=""> 80.5k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Mar 17, 2025  
 Open-source API client for testing REST, GraphQL, and WebSocket requests offline.
 
 **[coder/code-server](https://github.com/coder/code-server)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `web-app` `self-hosted` `typescript` <img src="assets/icons/star.png" width="14" height="14" alt=""> 79.4k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Feb 24, 2023  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `web-app` `self-hosted` `typescript` <img src="assets/icons/star.png" width="14" height="14" alt=""> 79.5k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Feb 24, 2023  
 Runs VS Code in a browser so you can edit and develop from any machine remotely.
 
 **[sharkdp/bat](https://github.com/sharkdp/bat)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `cli` `rust` `cross-platform` <img src="assets/icons/star.png" width="14" height="14" alt=""> 60.5k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Mar 25, 2025  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `cli` `rust` `cross-platform` <img src="assets/icons/star.png" width="14" height="14" alt=""> 60.6k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Mar 25, 2025  
 Rust CLI that cats files with syntax highlighting, git integration, and paging.
 
 **[slidevjs/slidev](https://github.com/slidevjs/slidev)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `typescript` `web-app` `javascript` <img src="assets/icons/star.png" width="14" height="14" alt=""> 48.8k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Nov 28, 2025  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `typescript` `web-app` `javascript` <img src="assets/icons/star.png" width="14" height="14" alt=""> 48.9k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Nov 28, 2025  
 Markdown-driven slide decks for developers, built on Vue and Vite for live coding demos.
 
 **[grpc/grpc](https://github.com/grpc/grpc)**  
@@ -220,7 +220,7 @@ Markdown-driven slide decks for developers, built on Vue and Vite for live codin
 High-performance RPC framework for connecting services across languages and platforms.
 
 **[sharkdp/fd](https://github.com/sharkdp/fd)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `cli` `rust` `search` <img src="assets/icons/star.png" width="14" height="14" alt=""> 44.5k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Mar 21, 2025  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `cli` `rust` `search` <img src="assets/icons/star.png" width="14" height="14" alt=""> 44.6k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Mar 21, 2025  
 User-friendly Rust alternative to find for fast filesystem search by name or pattern.
 
 **[CorentinTh/it-tools](https://github.com/CorentinTh/it-tools)**  
@@ -236,7 +236,7 @@ Extensible open framework for building customized internal developer portals.
 Cross-platform desktop Swiss Army knife packing everyday utilities for developers.
 
 **[fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `cli` `cross-platform` `lightweight` <img src="assets/icons/star.png" width="14" height="14" alt=""> 24.7k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Mar 25, 2025  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `cli` `cross-platform` `lightweight` <img src="assets/icons/star.png" width="14" height="14" alt=""> 24.8k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Mar 25, 2025  
 Fast, cross-platform terminal tool that displays detailed system and hardware info.
 
 **[JanDeDobbeleer/oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh)**  
@@ -244,7 +244,7 @@ Fast, cross-platform terminal tool that displays detailed system and hardware in
 Highly customizable cross-platform shell prompt renderer with low latency and rich themes.
 
 **[yorukot/superfile](https://github.com/yorukot/superfile)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `tui` `cli` `productivity` <img src="assets/icons/star.png" width="14" height="14" alt=""> 23.3k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Jun 14, 2024  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `tui` `cli` `productivity` <img src="assets/icons/star.png" width="14" height="14" alt=""> 23.4k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Jun 14, 2024  
 Modern terminal file manager with a polished TUI for browsing and managing files.
 
 **[caronc/apprise](https://github.com/caronc/apprise)**  
@@ -256,7 +256,7 @@ Python library unifying push notifications across dozens of chat, email, and web
 Generates customizable SVG and Markdown infographics from GitHub profile stats.
 
 **[Automattic/harper](https://github.com/Automattic/harper)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `privacy-focused` `offline-first` `browser-extension` <img src="assets/icons/star.png" width="14" height="14" alt=""> 15.8k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Oct 15, 2024  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `privacy-focused` `offline-first` `browser-extension` <img src="assets/icons/star.png" width="14" height="14" alt=""> 16k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Oct 15, 2024  
 Offline, privacy-first grammar checker powered by Rust and WebAssembly.
 
 **[direnv/direnv](https://github.com/direnv/direnv)**  
@@ -304,15 +304,15 @@ Minimal Rust TUI for browsing directory trees quickly from the terminal with git
 Official docs for SwitchBot's signed cloud API: devices, scenes, webhooks, and auth.
 
 **[nxzai/NextExplorer](https://github.com/nxzai/NextExplorer)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `web-app` `self-hosted` `javascript` <img src="assets/icons/star.png" width="14" height="14" alt=""> 1.1k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Oct 20, 2025  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `web-app` `self-hosted` `javascript` <img src="assets/icons/star.png" width="14" height="14" alt=""> 1.2k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Oct 20, 2025  
 Simple self-hosted web file explorer for browsing directories through the browser.
 
 **[humblepenguinn/envio](https://github.com/humblepenguinn/envio)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `cli` `encryption` `rust` <img src="assets/icons/star.png" width="14" height="14" alt=""> 991 stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Mar 27, 2023  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `cli` `encryption` `rust` <img src="assets/icons/star.png" width="14" height="14" alt=""> 992 stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Mar 27, 2023  
 Secure CLI for managing and syncing environment variables across projects.
 
 **[poshan0126/dotclaude](https://github.com/poshan0126/dotclaude)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `shell` `cli` `productivity` <img src="assets/icons/star.png" width="14" height="14" alt=""> 867 stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Jun 27, 2026  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `shell` `cli` `productivity` <img src="assets/icons/star.png" width="14" height="14" alt=""> 868 stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Jun 27, 2026  
 Shell conventions defining a standard .claude/ folder layout for AI-assisted dev.
 
 **[long2ice/fastapi-limiter](https://github.com/long2ice/fastapi-limiter)**  
@@ -320,21 +320,21 @@ Shell conventions defining a standard .claude/ folder layout for AI-assisted dev
 Async rate-limiting middleware library for FastAPI HTTP endpoints.
 
 **[LHRUN/bubble](https://github.com/LHRUN/bubble)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `typescript` `web-app` `productivity` <img src="assets/icons/star.png" width="14" height="14" alt=""> 514 stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Sep 19, 2026  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `typescript` `web-app` `productivity` <img src="assets/icons/star.png" width="14" height="14" alt=""> 515 stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Sep 19, 2026  
 Curated gallery of GitHub profile README examples to inspire and customize your profile.
 
 **[JonasHiltl/openchangelog](https://github.com/JonasHiltl/openchangelog)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `self-hosted` `web-app` `go` <img src="assets/icons/star.png" width="14" height="14" alt=""> 339 stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Mar 18, 2025  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `self-hosted` `web-app` `go` <img src="assets/icons/star.png" width="14" height="14" alt=""> 340 stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Mar 18, 2025  
 Lightweight self-hosted site generator for publishing product release changelogs.
 
 ## Finance and Business
 
 **[we-promise/sure](https://github.com/we-promise/sure)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `privacy-focused` `ruby` `web-app` <img src="assets/icons/star.png" width="14" height="14" alt=""> 10k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Aug 13, 2026  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `privacy-focused` `ruby` `web-app` <img src="assets/icons/star.png" width="14" height="14" alt=""> 10.3k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Aug 13, 2026  
 Community-driven personal finance app for everyday budgeting and money tracking.
 
 **[securo-finance/securo](https://github.com/securo-finance/securo)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `self-hosted` `privacy-focused` `python` <img src="assets/icons/star.png" width="14" height="14" alt=""> 3.7k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Aug 20, 2026  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `self-hosted` `privacy-focused` `python` <img src="assets/icons/star.png" width="14" height="14" alt=""> 3.8k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Aug 20, 2026  
 Self-hosted personal finance manager for tracking expenses with privacy in mind.
 
 **[kzekiue/kosh](https://github.com/kzekiue/kosh)**  
@@ -344,15 +344,15 @@ Tracks accounts, budgets, and cashflow in a privacy-focused self-hosted finance 
 ## Frontend, UI and Design
 
 **[nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `ai-powered` `web-app` `cross-platform` <img src="assets/icons/star.png" width="14" height="14" alt=""> 129.5k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Jun 27, 2026  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `ai-powered` `web-app` `cross-platform` <img src="assets/icons/star.png" width="14" height="14" alt=""> 131.2k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Jun 27, 2026  
 AI design skill guiding professional UI/UX choices across platforms.
 
 **[storybookjs/storybook](https://github.com/storybookjs/storybook)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `typescript` `extensible` `javascript` <img src="assets/icons/star.png" width="14" height="14" alt=""> 91.1k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred May 20, 2026  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `typescript` `extensible` `javascript` <img src="assets/icons/star.png" width="14" height="14" alt=""> 91.2k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred May 20, 2026  
 Industry-standard workshop to build, document, and test UI components in isolation.
 
 **[penpot/penpot](https://github.com/penpot/penpot)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `collaboration` `web-app` `self-hosted` <img src="assets/icons/star.png" width="14" height="14" alt=""> 60.2k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Mar 17, 2025  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `collaboration` `web-app` `self-hosted` <img src="assets/icons/star.png" width="14" height="14" alt=""> 60.5k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Mar 17, 2025  
 Open-source collaborative design tool for UI/UX prototyping and design systems.
 
 **[bitjson/qr-code](https://github.com/bitjson/qr-code)**  
@@ -360,13 +360,13 @@ Open-source collaborative design tool for UI/UX prototyping and design systems.
 Dependency-free SVG web component for generating customizable, animatable QR codes.
 
 **[Vrun-design/openflowkit](https://github.com/Vrun-design/openflowkit)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `ai-powered` `offline-first` `web-app` <img src="assets/icons/star.png" width="14" height="14" alt=""> 790 stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred May 13, 2026  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `ai-powered` `offline-first` `web-app` <img src="assets/icons/star.png" width="14" height="14" alt=""> 816 stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred May 13, 2026  
 Local-first diagramming app for architecture and flowcharts with AI-assisted exports.
 
 ## Infrastructure and Homelab
 
 **[community-scripts/ProxmoxVE](https://github.com/community-scripts/ProxmoxVE)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `homelab` `virtualization` `shell` <img src="assets/icons/star.png" width="14" height="14" alt=""> 29.6k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Mar 21, 2025  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `homelab` `virtualization` `shell` <img src="assets/icons/star.png" width="14" height="14" alt=""> 29.7k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Mar 21, 2025  
 Community shell scripts to simplify deploying services and VMs on Proxmox VE.
 
 **[seriousm4x/UpSnap](https://github.com/seriousm4x/UpSnap)**  
@@ -392,19 +392,19 @@ Immutable, container-optimized Linux OS designed for secure cluster and cloud no
 ## Knowledge and Learning
 
 **[toeverything/AFFiNE](https://github.com/toeverything/AFFiNE)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `collaboration` `cross-platform` `privacy-focused` <img src="assets/icons/star.png" width="14" height="14" alt=""> 72.8k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Aug 20, 2026  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `collaboration` `cross-platform` `privacy-focused` <img src="assets/icons/star.png" width="14" height="14" alt=""> 73.1k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Aug 20, 2026  
 Open-source workspace blending notes, whiteboards, and docs with local-first privacy.
 
 **[microsoft/AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `python` `cross-platform` `web-app` <img src="assets/icons/star.png" width="14" height="14" alt=""> 68.8k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Jul 13, 2026  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `python` `cross-platform` `web-app` <img src="assets/icons/star.png" width="14" height="14" alt=""> 69.2k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Jul 13, 2026  
 Free 12-week curriculum covering ML, NLP, and computer vision fundamentals.
 
 **[outline/outline](https://github.com/outline/outline)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `collaboration` `self-hosted` `web-app` <img src="assets/icons/star.png" width="14" height="14" alt=""> 40.6k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Jul 13, 2026  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `collaboration` `self-hosted` `web-app` <img src="assets/icons/star.png" width="14" height="14" alt=""> 40.7k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Jul 13, 2026  
 Real-time collaborative wiki and knowledge base with markdown support for teams.
 
 **[farhanashrafdev/90DaysOfCyberSecurity](https://github.com/farhanashrafdev/90DaysOfCyberSecurity)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `python` `networking` `shell` <img src="assets/icons/star.png" width="14" height="14" alt=""> 19.5k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Aug 28, 2026  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `python` `networking` `shell` <img src="assets/icons/star.png" width="14" height="14" alt=""> 19.7k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Aug 28, 2026  
 Structured 90-day cybersecurity study plan with daily tasks and curated learning resources.
 
 **[techiescamp/kubernetes-learning-path](https://github.com/techiescamp/kubernetes-learning-path)**  
@@ -416,11 +416,11 @@ Structured roadmap covering Kubernetes concepts from beginner setup through adva
 README templates and practical tips for writing documentation people actually read.
 
 **[colanode/colanode](https://github.com/colanode/colanode)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `collaboration` `self-hosted` `offline-first` <img src="assets/icons/star.png" width="14" height="14" alt=""> 5.1k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred May 5, 2025  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `collaboration` `self-hosted` `offline-first` <img src="assets/icons/star.png" width="14" height="14" alt=""> 5.2k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred May 5, 2025  
 Local-first team workspace combining chat, docs, and wikis with CRDT sync.
 
 **[Yoas1/ansible-handson](https://github.com/Yoas1/ansible-handson)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `docker` `automation` `shell` <img src="assets/icons/star.png" width="14" height="14" alt=""> 163 stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred May 30, 2026  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `docker` `automation` `shell` <img src="assets/icons/star.png" width="14" height="14" alt=""> 162 stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred May 30, 2026  
 Docker-based local lab for learning Ansible automation without spinning up full VMs.
 
 ## Media and Streaming
@@ -430,7 +430,7 @@ Docker-based local lab for learning Ansible automation without spinning up full 
 Privacy-focused YouTube frontend that streams videos without Google tracking.
 
 **[stupside/castor](https://github.com/stupside/castor)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `real-time` `go` <img src="assets/icons/star.png" width="14" height="14" alt=""> 2.3k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Jul 20, 2026  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `real-time` `go` <img src="assets/icons/star.png" width="14" height="14" alt=""> 2.4k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Jul 20, 2026  
 Finds page videos, transcodes streams, and casts them to Chromecast or DLNA TVs.
 
 **[technomancer702/nodecast-tv](https://github.com/technomancer702/nodecast-tv)**  
@@ -442,33 +442,33 @@ Browser IPTV player for Xtream Codes and M3U with smooth streaming of large medi
 Downloads YouTube videos into organized libraries for automatic import to Jellyfin or Plex.
 
 **[tamnguyenvan/screenarc](https://github.com/tamnguyenvan/screenarc)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `cross-platform` `desktop-app` `gui` <img src="assets/icons/star.png" width="14" height="14" alt=""> 719 stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Jul 20, 2026  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `cross-platform` `desktop-app` `gui` <img src="assets/icons/star.png" width="14" height="14" alt=""> 722 stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Jul 20, 2026  
 Desktop recorder that auto-adds cinematic zooms and mouse tracking for tutorials.
 
 ## Monitoring and Observability
 
 **[louislam/uptime-kuma](https://github.com/louislam/uptime-kuma)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `monitoring` `self-hosted` `dashboard` <img src="assets/icons/star.png" width="14" height="14" alt=""> 91.6k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Feb 26, 2025  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `monitoring` `self-hosted` `dashboard` <img src="assets/icons/star.png" width="14" height="14" alt=""> 91.9k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Feb 26, 2025  
 Self-hosted uptime monitor with alerts and status pages for websites and services.
 
 **[koala73/worldmonitor](https://github.com/koala73/worldmonitor)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `ai-powered` `dashboard` `real-time` <img src="assets/icons/star.png" width="14" height="14" alt=""> 87.1k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Mar 23, 2026  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `ai-powered` `dashboard` `real-time` <img src="assets/icons/star.png" width="14" height="14" alt=""> 87.5k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Mar 23, 2026  
 Real-time global dashboard aggregating news, geopolitics, and infrastructure signals.
 
 **[glanceapp/glance](https://github.com/glanceapp/glance)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `dashboard` `homelab` `self-hosted` <img src="assets/icons/star.png" width="14" height="14" alt=""> 37.1k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Jul 20, 2026  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `dashboard` `homelab` `self-hosted` <img src="assets/icons/star.png" width="14" height="14" alt=""> 37.2k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Jul 20, 2026  
 Homelab homepage aggregating RSS, Reddit, and YouTube feeds in one dashboard.
 
 **[aristocratos/btop](https://github.com/aristocratos/btop)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `monitoring` `tui` `cross-platform` <img src="assets/icons/star.png" width="14" height="14" alt=""> 34.7k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Mar 5, 2025  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `monitoring` `tui` `cross-platform` <img src="assets/icons/star.png" width="14" height="14" alt=""> 34.8k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Mar 5, 2025  
 Terminal-based CPU, memory, and process monitor with a polished interactive interface.
 
 **[nicolargo/glances](https://github.com/nicolargo/glances)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `monitoring` `cli` `cross-platform` <img src="assets/icons/star.png" width="14" height="14" alt=""> 33.6k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Mar 17, 2025  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `monitoring` `cli` `cross-platform` <img src="assets/icons/star.png" width="14" height="14" alt=""> 33.7k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Mar 17, 2025  
 Cross-platform system monitor showing CPU, memory, disk, and network in terminal or web.
 
 **[gethomepage/homepage](https://github.com/gethomepage/homepage)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `dashboard` `homelab` `docker` <img src="assets/icons/star.png" width="14" height="14" alt=""> 32.8k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Mar 17, 2025  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `dashboard` `homelab` `docker` <img src="assets/icons/star.png" width="14" height="14" alt=""> 32.9k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Mar 17, 2025  
 Customizable homelab start page with Docker integrations and service status widgets.
 
 **[thanos-io/thanos](https://github.com/thanos-io/thanos)**  
@@ -476,7 +476,7 @@ Customizable homelab start page with Docker integrations and service status widg
 Prometheus extension adding long-term storage and high availability for metrics at scale.
 
 **[TwiN/gatus](https://github.com/TwiN/gatus)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `monitoring` `dashboard` `self-hosted` <img src="assets/icons/star.png" width="14" height="14" alt=""> 12.1k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Aug 25, 2026  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `monitoring` `dashboard` `self-hosted` <img src="assets/icons/star.png" width="14" height="14" alt=""> 12.2k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Aug 25, 2026  
 Self-hosted uptime monitor with status pages, alerts, and incident tracking.
 
 **[Abdenasser/neohtop](https://github.com/Abdenasser/neohtop)**  
@@ -484,11 +484,11 @@ Self-hosted uptime monitor with status pages, alerts, and incident tracking.
 Fast desktop system monitor built with Rust and Tauri for CPU, memory, and processes.
 
 **[OneUptime/oneuptime](https://github.com/OneUptime/oneuptime)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `monitoring` `self-hosted` `dashboard` <img src="assets/icons/star.png" width="14" height="14" alt=""> 7.6k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Mar 18, 2025  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `monitoring` `self-hosted` `dashboard` <img src="assets/icons/star.png" width="14" height="14" alt=""> 7.7k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Mar 18, 2025  
 All-in-one open-source platform for uptime monitoring, incidents, and status pages.
 
 **[rcourtman/Pulse](https://github.com/rcourtman/Pulse)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `monitoring` `dashboard` `homelab` <img src="assets/icons/star.png" width="14" height="14" alt=""> 6.7k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Sep 29, 2025  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `monitoring` `dashboard` `homelab` <img src="assets/icons/star.png" width="14" height="14" alt=""> 6.8k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Sep 29, 2025  
 Homelab infrastructure monitor for Proxmox, Docker, K8s, and NAS with alerts and dashboards.
 
 **[alexjustesen/speedtest-tracker](https://github.com/alexjustesen/speedtest-tracker)**  
@@ -496,7 +496,7 @@ Homelab infrastructure monitor for Proxmox, Docker, K8s, and NAS with alerts and
 Self-hosted dashboard that tracks internet speed tests and connection uptime over time.
 
 **[Pouzor/homelable](https://github.com/Pouzor/homelable)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `homelab` `dashboard` `self-hosted` <img src="assets/icons/star.png" width="14" height="14" alt=""> 3.7k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Aug 21, 2026  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `homelab` `dashboard` `self-hosted` <img src="assets/icons/star.png" width="14" height="14" alt=""> 4k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Aug 21, 2026  
 Interactive homelab network map with live status for devices and services.
 
 **[prometheus-pve/prometheus-pve-exporter](https://github.com/prometheus-pve/prometheus-pve-exporter)**  
@@ -504,41 +504,45 @@ Interactive homelab network map with live status for devices and services.
 Prometheus exporter that surfaces Proxmox VE cluster metrics for homelab monitoring stacks.
 
 **[mr-karan/logchef](https://github.com/mr-karan/logchef)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `monitoring` `lightweight` `go` <img src="assets/icons/star.png" width="14" height="14" alt=""> 901 stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Aug 20, 2026  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `monitoring` `lightweight` `go` <img src="assets/icons/star.png" width="14" height="14" alt=""> 906 stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Aug 20, 2026  
 Lightweight log analytics UI for ClickHouse focused on fast querying and visualization.
 
 **[iamspido/github-release-monitor](https://github.com/iamspido/github-release-monitor)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `monitoring` `automation` `self-hosted` <img src="assets/icons/star.png" width="14" height="14" alt=""> 427 stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Aug 10, 2026  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `monitoring` `automation` `self-hosted` <img src="assets/icons/star.png" width="14" height="14" alt=""> 432 stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Aug 10, 2026  
 Monitors GitHub, GitLab, and Codeberg releases and sends instant notifications.
 
 **[dougmaitelli/DockDash](https://github.com/dougmaitelli/DockDash)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `docker` `dashboard` `homelab` <img src="assets/icons/star.png" width="14" height="14" alt=""> 197 stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Aug 20, 2026  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `docker` `dashboard` `homelab` <img src="assets/icons/star.png" width="14" height="14" alt=""> 198 stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Aug 20, 2026  
 Homelab dashboard mapping Docker container health, updates, and service connections.
 
 **[TheDuffman85/linux-update-dashboard](https://github.com/TheDuffman85/linux-update-dashboard)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `dashboard` `ssh` `self-hosted` <img src="assets/icons/star.png" width="14" height="14" alt=""> 172 stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Mar 5, 2026  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `dashboard` `ssh` `self-hosted` <img src="assets/icons/star.png" width="14" height="14" alt=""> 171 stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Mar 5, 2026  
 Self-hosted dashboard to check and apply Linux package updates over SSH.
 
 **[Techdox/trove](https://github.com/Techdox/trove)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `docker` `kubernetes` `homelab` <img src="assets/icons/star.png" width="14" height="14" alt=""> 58 stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Jul 13, 2026  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `docker` `kubernetes` `homelab` <img src="assets/icons/star.png" width="14" height="14" alt=""> 57 stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Jul 13, 2026  
 Auto-discovers and catalogs Docker, Kubernetes, Proxmox, and Linux services read-only.
+
+**[DerKezorm/nexdeck](https://github.com/DerKezorm/nexdeck)**  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `dashboard` `homelab` `self-hosted` <img src="assets/icons/star.png" width="14" height="14" alt=""> 28 stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Sep 23, 2026  
+Live homelab dashboard with integrations, card actions, and boards for desk, phone, and wall.
 
 ## Networking and Remote Access
 
 **[rustdesk/rustdesk](https://github.com/rustdesk/rustdesk)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `self-hosted` `cross-platform` `desktop-app` <img src="assets/icons/star.png" width="14" height="14" alt=""> 124.1k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Feb 4, 2025  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `self-hosted` `cross-platform` `desktop-app` <img src="assets/icons/star.png" width="14" height="14" alt=""> 124.7k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Feb 4, 2025  
 Self-hostable remote desktop alternative to TeamViewer for cross-platform control.
 
 **[caddyserver/caddy](https://github.com/caddyserver/caddy)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `proxy` `extensible` `cross-platform` <img src="assets/icons/star.png" width="14" height="14" alt=""> 75.9k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Mar 17, 2025  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `proxy` `extensible` `cross-platform` <img src="assets/icons/star.png" width="14" height="14" alt=""> 76.1k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Mar 17, 2025  
 Extensible web server and reverse proxy with automatic HTTPS via built-in ACME.
 
 **[traefik/traefik](https://github.com/traefik/traefik)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `load-balancer` `proxy` `kubernetes` <img src="assets/icons/star.png" width="14" height="14" alt=""> 64.9k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred May 13, 2025  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `load-balancer` `proxy` `kubernetes` <img src="assets/icons/star.png" width="14" height="14" alt=""> 65k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred May 13, 2025  
 Cloud-native reverse proxy and load balancer for routing traffic to microservices.
 
 **[netbirdio/netbird](https://github.com/netbirdio/netbird)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `vpn` `zero-trust` `networking` <img src="assets/icons/star.png" width="14" height="14" alt=""> 29.4k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Feb 10, 2025  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `vpn` `zero-trust` `networking` <img src="assets/icons/star.png" width="14" height="14" alt=""> 29.6k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Feb 10, 2025  
 WireGuard mesh VPN with SSO and access controls for connecting devices securely.
 
 **[scanopy/scanopy](https://github.com/scanopy/scanopy)**  
@@ -546,12 +550,16 @@ WireGuard mesh VPN with SSO and access controls for connecting devices securely.
 Self-hosted tool that auto-generates and keeps live network topology diagrams up to date.
 
 **[gnmyt/Nexterm](https://github.com/gnmyt/Nexterm)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `ssh` `web-app` `self-hosted` <img src="assets/icons/star.png" width="14" height="14" alt=""> 5k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Mar 18, 2025  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `ssh` `web-app` `self-hosted` <img src="assets/icons/star.png" width="14" height="14" alt=""> 5.1k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Mar 18, 2025  
 Web-based server manager for SSH, VNC, and RDP sessions from one interface.
 
 **[apache/guacamole-server](https://github.com/apache/guacamole-server)**  
 <img src="assets/icons/tag.png" width="14" height="14" alt=""> `proxy` `web-app` `cross-platform` <img src="assets/icons/star.png" width="14" height="14" alt=""> 4k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Mar 17, 2025  
 Backend daemon powering browser-based remote desktop access over RDP, VNC, and SSH.
+
+**[veops/oneterm](https://github.com/veops/oneterm)**  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `ssh` `authentication` `web-app` <img src="assets/icons/star.png" width="14" height="14" alt=""> 2k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Sep 22, 2026  
+Bastion platform for centralized SSH, RDP, VNC, and terminal access to infrastructure.
 
 **[evsar3/sshfs-win-manager](https://github.com/evsar3/sshfs-win-manager)**  
 <img src="assets/icons/tag.png" width="14" height="14" alt=""> `ssh` `gui` `desktop-app` <img src="assets/icons/star.png" width="14" height="14" alt=""> 1.5k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Oct 14, 2025  
@@ -562,7 +570,7 @@ Windows desktop GUI for mounting remote SSH filesystems via SSHFS-Win without th
 Captive portal gateway controlling public LAN access before users reach the internet.
 
 **[Priyanshu-1622/skiff](https://github.com/Priyanshu-1622/skiff)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `ssh` `self-hosted` `encryption` <img src="assets/icons/star.png" width="14" height="14" alt=""> 158 stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred May 30, 2026  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `ssh` `self-hosted` `encryption` <img src="assets/icons/star.png" width="14" height="14" alt=""> 159 stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred May 30, 2026  
 Self-hosted SSH connection manager with encrypted credentials, a Termius alternative.
 
 **[chriscohnen/islandr](https://github.com/chriscohnen/islandr)**  
@@ -572,19 +580,19 @@ Native WireGuard VPN manager for secure remote access across workers and sites.
 ## Personal and Lifestyle
 
 **[microsoft/PowerToys](https://github.com/microsoft/PowerToys)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `desktop-app` `productivity` `gui` <img src="assets/icons/star.png" width="14" height="14" alt=""> 138.9k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Oct 4, 2024  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `desktop-app` `productivity` `gui` <img src="assets/icons/star.png" width="14" height="14" alt=""> 139.1k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Oct 4, 2024  
 Windows utility suite for window management, renaming, search, and desktop customization.
 
 **[karakeep-app/karakeep](https://github.com/karakeep-app/karakeep)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `ai-powered` `self-hosted` `productivity` <img src="assets/icons/star.png" width="14" height="14" alt=""> 29.2k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Mar 18, 2025  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `ai-powered` `self-hosted` `productivity` <img src="assets/icons/star.png" width="14" height="14" alt=""> 29.3k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Mar 18, 2025  
 Self-hosted bookmark manager that saves links, notes, and images with AI auto-tagging.
 
 **[usekaneo/kaneo](https://github.com/usekaneo/kaneo)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `project-management` `self-hosted` `collaboration` <img src="assets/icons/star.png" width="14" height="14" alt=""> 9.1k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Aug 12, 2026  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `project-management` `self-hosted` `collaboration` <img src="assets/icons/star.png" width="14" height="14" alt=""> 9.3k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Aug 12, 2026  
 Self-hosted kanban and issue tracker positioned as a simpler Jira alternative.
 
 **[ridafkih/keeper.sh](https://github.com/ridafkih/keeper.sh)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `self-hosted` `productivity` `api` <img src="assets/icons/star.png" width="14" height="14" alt=""> 1.3k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Mar 23, 2026  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `self-hosted` `productivity` `api` <img src="assets/icons/star.png" width="14" height="14" alt=""> 1.4k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Mar 23, 2026  
 Syncs calendars across Google, Outlook, iCloud, and CalDAV, plus an MCP server.
 
 **[denho/faved](https://github.com/denho/faved)**  
@@ -592,37 +600,37 @@ Syncs calendars across Google, Outlook, iCloud, and CalDAV, plus an MCP server.
 Fast self-hosted bookmark manager with nested tags and locally stored data.
 
 **[Gimanh/taskview-community](https://github.com/Gimanh/taskview-community)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `self-hosted` `project-management` `collaboration` <img src="assets/icons/star.png" width="14" height="14" alt=""> 708 stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Jul 20, 2026  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `self-hosted` `project-management` `collaboration` <img src="assets/icons/star.png" width="14" height="14" alt=""> 1.1k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Jul 20, 2026  
 Self-hosted kanban task board built for team visibility and ownership.
 
 **[maathimself/mailflow](https://github.com/maathimself/mailflow)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `self-hosted` `web-app` `privacy-focused` <img src="assets/icons/star.png" width="14" height="14" alt=""> 473 stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Aug 21, 2026  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `self-hosted` `web-app` `privacy-focused` <img src="assets/icons/star.png" width="14" height="14" alt=""> 489 stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Aug 21, 2026  
 Self-hosted webmail client that unifies multiple email accounts in one inbox.
 
 **[Ivan-Malinovski/calino](https://github.com/Ivan-Malinovski/calino)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `web-app` `productivity` `typescript` <img src="assets/icons/star.png" width="14" height="14" alt=""> 261 stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Jun 11, 2026  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `web-app` `productivity` `typescript` <img src="assets/icons/star.png" width="14" height="14" alt=""> 285 stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Jun 11, 2026  
 Clean web CalDAV client for browsing and managing calendars from the browser.
 
-**[almoce/Taskflow](https://github.com/almoce/Taskflow)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `project-management` `productivity` `web-app` <img src="assets/icons/star.png" width="14" height="14" alt=""> 95 stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Mar 23, 2026  
-Sleek task and project manager with kanban views and productivity charts.
-
 **[Calnode/calnode](https://github.com/Calnode/calnode)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `self-hosted` `api` `lightweight` <img src="assets/icons/star.png" width="14" height="14" alt=""> 91 stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Aug 17, 2026  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `self-hosted` `api` `lightweight` <img src="assets/icons/star.png" width="14" height="14" alt=""> 97 stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Aug 17, 2026  
 Lean self-hosted scheduling tool with a booking API and native MCP support.
+
+**[almoce/Taskflow](https://github.com/almoce/Taskflow)**  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `project-management` `productivity` `web-app` <img src="assets/icons/star.png" width="14" height="14" alt=""> 96 stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Mar 23, 2026  
+Sleek task and project manager with kanban views and productivity charts.
 
 **[benginN/caltask](https://github.com/benginN/caltask)**  
 <img src="assets/icons/tag.png" width="14" height="14" alt=""> `self-hosted` `productivity` `docker` <img src="assets/icons/star.png" width="14" height="14" alt=""> 52 stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Aug 21, 2026  
 Self-hosted calendar and task manager with ICS sync and Google Calendar import.
 
 **[XiovV/calich](https://github.com/XiovV/calich)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `productivity` `self-hosted` `cross-platform` <img src="assets/icons/star.png" width="14" height="14" alt=""> 50 stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Sep 2, 2026  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `productivity` `self-hosted` `cross-platform` <img src="assets/icons/star.png" width="14" height="14" alt=""> 51 stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Sep 2, 2026  
 Calendar server with CalDAV sync as an alternative to hosted calendar services.
 
 ## Security and DevSecOps
 
 **[sherlock-project/sherlock](https://github.com/sherlock-project/sherlock)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `cli` `python` `search` <img src="assets/icons/star.png" width="14" height="14" alt=""> 92.4k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Feb 23, 2026  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `cli` `python` `search` <img src="assets/icons/star.png" width="14" height="14" alt=""> 93k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Feb 23, 2026  
 CLI that hunts a username across hundreds of social networks for OSINT recon.
 
 **[lissy93/web-check](https://github.com/lissy93/web-check)**  
@@ -638,15 +646,15 @@ Open-source PAM platform for secure browser access to SSH, RDP, K8s, and databas
 Living checklist of practical steps to harden a Linux server against common attacks.
 
 **[Infisical/infisical](https://github.com/Infisical/infisical)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `encryption` `self-hosted` `authentication` <img src="assets/icons/star.png" width="14" height="14" alt=""> 29.4k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Feb 4, 2025  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `encryption` `self-hosted` `authentication` <img src="assets/icons/star.png" width="14" height="14" alt=""> 29.5k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Feb 4, 2025  
 Open-source platform for managing secrets, certificates, and privileged access.
 
 **[authelia/authelia](https://github.com/authelia/authelia)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `authentication` `sso` `self-hosted` <img src="assets/icons/star.png" width="14" height="14" alt=""> 29k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Apr 4, 2025  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `authentication` `sso` `self-hosted` <img src="assets/icons/star.png" width="14" height="14" alt=""> 29.1k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Apr 4, 2025  
 Self-hosted SSO portal with MFA, OIDC, and WebAuthn for securing web applications.
 
 **[goauthentik/authentik](https://github.com/goauthentik/authentik)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `authentication` `sso` `self-hosted` <img src="assets/icons/star.png" width="14" height="14" alt=""> 25.7k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Jul 9, 2026  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `authentication` `sso` `self-hosted` <img src="assets/icons/star.png" width="14" height="14" alt=""> 25.8k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Jul 9, 2026  
 Self-hosted identity provider offering SSO, OAuth, OIDC, and SAML integrations.
 
 **[chaitin/SafeLine](https://github.com/chaitin/SafeLine)**  
@@ -670,21 +678,21 @@ Reverse proxy that adds OAuth, OIDC, and SSO authentication in front of web apps
 Go CLI that scans container images and filesystems for known CVEs and vulnerabilities.
 
 **[pocket-id/pocket-id](https://github.com/pocket-id/pocket-id)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `authentication` `oauth` `self-hosted` <img src="assets/icons/star.png" width="14" height="14" alt=""> 9.2k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Feb 3, 2026  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `authentication` `oauth` `self-hosted` <img src="assets/icons/star.png" width="14" height="14" alt=""> 9.3k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Feb 3, 2026  
 Self-hosted OIDC and OAuth provider offering certified, passkey-first sign-in for your apps.
 
 **[smallstep/certificates](https://github.com/smallstep/certificates)**  
 <img src="assets/icons/tag.png" width="14" height="14" alt=""> `encryption` `authentication` `cli` <img src="assets/icons/star.png" width="14" height="14" alt=""> 8.9k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Mar 17, 2025  
 Private X.509 and SSH certificate authority with ACME for automated TLS provisioning.
 
-**[warp-tech/warpgate](https://github.com/warp-tech/warpgate)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `ssh` `proxy` `zero-trust` <img src="assets/icons/star.png" width="14" height="14" alt=""> 7.9k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Aug 10, 2026  
-Transparent bastion for SSH, HTTPS, databases, and remote desktop without extra clients.
-
 **[openbao/openbao](https://github.com/openbao/openbao)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `encryption` `self-hosted` `go` <img src="assets/icons/star.png" width="14" height="14" alt=""> 7.4k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Jun 24, 2026  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `encryption` `self-hosted` `go` <img src="assets/icons/star.png" width="14" height="14" alt=""> 8.2k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Jun 24, 2026  
 Open-source secrets manager for storing and distributing keys, certs, and sensitive data.
 
+**[warp-tech/warpgate](https://github.com/warp-tech/warpgate)**  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `ssh` `proxy` `zero-trust` <img src="assets/icons/star.png" width="14" height="14" alt=""> 8k stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Aug 10, 2026  
+Transparent bastion for SSH, HTTPS, databases, and remote desktop without extra clients.
+
 **[thunder-id/thunderid](https://github.com/thunder-id/thunderid)**  
-<img src="assets/icons/tag.png" width="14" height="14" alt=""> `authentication` `oauth` `go` <img src="assets/icons/star.png" width="14" height="14" alt=""> 580 stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Jul 9, 2026  
+<img src="assets/icons/tag.png" width="14" height="14" alt=""> `authentication` `oauth` `go` <img src="assets/icons/star.png" width="14" height="14" alt=""> 585 stars <img src="assets/icons/clock.png" width="14" height="14" alt=""> starred Jul 9, 2026  
 Composable identity platform securing access for users, agents, and machines.
